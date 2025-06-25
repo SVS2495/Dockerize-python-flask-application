@@ -13,7 +13,7 @@ This project helps us understand and know how to dockerize an application (pytho
 
 ## 1- Create python-flask folder in Ubuntu
 - mkdir python-flask
-- create above 4 files
+- create and data of above 4 files
 - run demo_project.sh:
 - chomod +x demo_project.sh
 - ./demo_project.sh 
