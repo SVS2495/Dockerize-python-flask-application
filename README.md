@@ -18,6 +18,15 @@ This project helps us understand and know how to dockerize an application (pytho
 - chomod +x demo_project.sh
 - ./demo_project.sh 
 
+✅ How it integrates with demo_project.sh
+docker build -t my-flask-app .
+Builds using this Dockerfile: installs dependencies, copies code, sets up port, and defines run command.
+
+docker run -d -p 5000:5000 my-flask-app
+Launches your Flask container in the background, mapping port 5000 to host.
+
+The script then waits and curls localhost:5000, which should now return your Flask app's response.
+
 
 
 ## 2-Verify the result
